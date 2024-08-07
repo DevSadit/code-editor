@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 function Result({srcCode}) {
     return (
         <div>
-            <div className="bg-white p-4 mt-12 ">
+            <div className="bg-white p-4 mt-6 ">
                 
                 <iframe
-                    className="w-ful max-h-96 min-h-80 border-gray-700 rounded-md"
+                    className="w-ful max-h-96 min-h-96 "
                     srcDoc={srcCode}
                     title="output"
                     sandbox="allow-scripts"
